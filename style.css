@@ -1,6 +1,8 @@
-body{
-    background-color :cyan;
-}
-.heading {
-   color : blue;
+.head {
+     height: 500px;
+     width: 500px;
+     color: aqua;
+     border: 100px;
+     background-color: blanchedalmond;
+     border-color:black;
 }
