@@ -1,0 +1,19 @@
+.first-part{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    margin: 30%;
+    padding: 10px;
+    background-color: white;
+    border: 80%;
+    border-color: aqua;
+}
+
+.bobysheet{
+    background-color: antiquewhite;
+}
+
+.first-part h1{
+    font-weight:lighter;
+}
