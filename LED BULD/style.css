@@ -1,27 +1,211 @@
-header{
-    background-color: white;
+:root{
+    --parimary-color: red;
+       --white:white;
+    --yellow-color :yellow;
+    --ac-back-c:rgba(0,200,0,0.8);
 }
-.cir{
-    color: red;
+
+*{
+    margin: 0;
 }
-.tuff {
-    color: red;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.tuff-part{
+    background-color: var(--white);
+    border-bottom: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right:0 ;
+    border-color:green ;
+    border-style: solid;
+    text-align: center;
+    height: 100px;
+    background-color: var(--white);
+}
+.tuff-part h1{
+    font-size: 50px;
+    color: var(--parimary-color);
+    padding-top: 20px;
+    font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--white);
+    display: inline-block;
+}
+.tuff-part sup{
+   width: 50px;
+   height: 50px;
+   border: 1px solid var(--parimary-color);
+   border-radius: 30px;
+   font-size: 10px;
+   padding: 1px;
+   position: relative;
+   bottom: 12px;
+   left: 4px;
+   background-color: var(--white);
+}
+.led-buld{
+    text-align: center;
+    color:var(--white);
+    text-transform: uppercase;
+    height: 50px;
+    background-color: var(--parimary-color);
+    border-bottom: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right:0 ;
+    border-color: rgba(0, 255, 140,0.7);
+    border-style: solid;
+}
+.led-buld b{
+ position: relative;
+ top: 10px;
+ font-size: 35px;
+}
+
+.main-content{
+    background-color: var(--ac-back-c);
+    height: 240px;
+}
+
+#ac{
+   background-color: var(--parimary-color);
+   color: var(--white);
+   text-transform: uppercase;
+   display: inline-block;
+   width: 30vw;
+   height: 30px;
+   text-align: center;
+   position: relative;
+   left: 20vw;
+   top: 20px;
 }
 #watt{
-    background-color: white;
-    color: red;
+background-color: var(--white);
+color: var(--parimary-color);
+text-transform: capitalize;
+display: inline-block;
+width: 112px;
+position: relative;
+left: 19vw;
+top: 20px;
+height: 30px;
+text-align: center;
+}
+
+#ac p{
+       font-size: 25px;
+    line-height: 40px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 600;
+     position: relative;
+    left: 1em;
+}
+
+#watt p{
+     font-size: 25px;
+    line-height: 40px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 10px;
+}
+
+ul{
+    position: relative;
+    top: 30px;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#sup{
+    font-weight: 800;
+    position: relative;
+    bottom:5px;
+}
+
+.main-feature{
+    background-color:var(--ac-back-c) ;
+    color: white;
+    height: 130px;
+    text-align: center;
+}
+.feature1{
+    background-color: var(--parimary-color);
+    width: 7em;
+    height: 30px;
+    border: 3px solid var(--white);
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 315px;
+    font-size: 25px;
+}
+
+.feature2{
+     background-color: var(--parimary-color);
+    width: 7em;
+    height: 30px;
+    border: 3px solid var(--white);
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    left: 25em;
+    display: block;
+    font-size: 25px;
+}
+
+.footer{
+    background-color: var(--white);
+    text-align: center;
+}
+
+.tuff{
+    background-color: var(--white);
+    text-align: center;
+    height: 100px;
+    background-color: var(--white);
+}
+.tuff h1{
+    font-size: 50px;
+    color: var(--parimary-color);
+    padding-top: 20px;
+    font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--white);
+    display: inline-block;
+}
+.tuff sup{
+   width: 50px;
+   height: 50px;
+   border: 1px solid var(--parimary-color);
+   border-radius: 30px;
+   font-size: 10px;
+   padding: 1px;
+   position: relative;
+   bottom: 12px;
+   left: 4px;
+   background-color: var(--white);
+}
+.lifetime-bar{
+    background-color: var(--parimary-color);
+    height: 35px;
+    width:20rem;
+    border-radius: 8px;
+    border-style: solid;
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    position: relative;
+    left: 37vw;
+    bottom: 1rem;
     
-}
-main{
-    background-color: green;
-}
-#AC{
-        background-color: red;
-        color: white;
-    }
- .feature{
-    background-color: red;
- }   
-.red    {
-    background-color: red;
 }
