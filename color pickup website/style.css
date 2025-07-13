@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    
+
+
+.siteview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.colorsite{
+    background-color:#6495ED;
+    width: 15rem;
+    height: 25px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 30px;
+    border: none;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 500;
+      text-transform: capitalize;
+}
+
+.colorsite:hover{
+    border: 3px solid #FF8C00;
+  
+}
+
+.colors-boxes{
+    width: 60vw;
+    height: 50px;
+    /* background-color: #54a91f; */
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+
+
+}
+
+.main{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+#pack-color1{
+    width: 30%;
+    height: 50px;
+    background-color: #FF8C00;
+    border-radius:10px 0px 0px 10px ;
+}
+
+#pack-color1:hover{
+     transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+#pack-color2{
+    width: 30%;
+    height: 50px;
+    background-color: #0000FF;
+}
+
+#pack-color2:hover{
+   transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+
+#pack-color3{
+    width: 30%;
+    height: 50px;
+    background-color: #A52A2A;
+}
+
+#pack-color3:hover{
+ transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+
+#pack-color4{
+    width: 30%;
+    height: 50px;
+    background-color: #00FFFF;
+   border-radius:0px 10px 10px 0px ;
+}
+
+#pack-color4:hover{
+   transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+
+
+#pack2-color1{
+    width: 30%;
+    height: 50px;
+    background-color:#008B8B;
+    border-radius:10px 0px 0px 10px ;
+}
+
+#pack2-color1:hover{
+     transition: background-color ease-out 3s; 
+    border: 1px solid rgb(0, 0, 0,0);
+}
+
+#pack2-color2{
+    width: 30%;
+    height: 50px;
+    background-color:#A9A9A9;
+}
+
+#pack2-color2:hover{
+   transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+
+#pack2-color3{
+    width: 30%;
+    height: 50px;
+    background-color: #BDB76B;
+}
+
+#pack2-color3:hover{
+   transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+#pack2-color4{
+    width: 30%;
+    height: 50px;
+    background-color: #5F9EA0;
+   border-radius:0px 10px 10px 0px ;
+}
+#pack2-color4:hover{
+    transition: background-color ease-out 3s; 
+     border: 1px solid rgba(0, 0, 0, 0); 
+}
+
+.hex-code{
+    position: relative;
+    top: 15px;
+    left: 8px;
+    font-family: monospace;
+     font-size: 10px;
+     color: black;
+     font-weight: 200;
+}
+
+
+#pack3-color1{
+    width: 30%;
+    height: 50px;
+    background-color: #FF1493;
+    border-radius:10px 0px 0px 10px ;
+}
+
+#pack3-color1:hover{
+     transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+#pack3-color2{
+    width: 30%;
+    height: 50px;
+    background-color: #00BFFF;
+}
+
+#pack3-color2:hover{
+   transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+
+#pack3-color3{
+    width: 30%;
+    height: 50px;
+    background-color: #696969;
+}
+
+#pack3-color3:hover{
+ transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+
+#pack3-color4{
+    width: 30%;
+    height: 50px;
+    background-color: #1E90FF;
+   border-radius:0px 10px 10px 0px ;
+}
+
+#pack3-color4:hover{
+   transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+
+
+#pack4-color1{
+    width: 30%;
+    height: 50px;
+    background-color:#FFE4C4;
+    border-radius:10px 0px 0px 10px ;
+}
+
+#pack4-color1:hover{
+     transition: background-color ease-out 3s; 
+    border: 1px solid rgb(0, 0, 0,0);
+}
+
+#pack4-color2{
+    width: 30%;
+    height: 50px;
+    background-color: #F0FFFF;
+
+}
+
+#pack4-color2:hover{
+   transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+
+#pack4-color3{
+    width: 30%;
+    height: 50px;
+    background-color: #7FFFD4;
+}
+
+#pack4-color3:hover{
+   transition: background-color ease-out 3s; 
+    border: 1px solid rgba(0, 0, 0,0);
+}
+
+#pack4-color4{
+    width: 30%;
+    height: 50px;
+    background-color: #00FFFF;
+   border-radius:0px 10px 10px 0px ;
+}
+#pack4-color4:hover{
+    transition: background-color ease-out 3s; 
+     border: 1px solid rgba(0, 0, 0, 0); 
+}
+
+
