@@ -1,7 +1,9 @@
    let body = document.querySelector("#body");
    let button = document.querySelector(".btn");
+   let html = document.querySelector("html");
+      
 
-const color =[
+const colors =[
   '#F0F8FF',
   '#FAEBD7',
   '#00FFFF',
@@ -55,17 +57,61 @@ const color =[
   '#FF4500',
   '#DA70D6',
   '#EEE8AA',
+  '#9ACD32',
+  '#FFFF00',
+  '#F5F5F5',
+  '#FFFFFF',
+  '#663399',
+  '#800080',
+  '#B0E0E6',
+  '#DDA0DD',
+  '#FFC0CB',
+  '#CD853F',
+  '#FFDAB9',
+  '#FFEFD5',
+  '#DB7093',
+  '#AFEEEE',
+  '#98FB98',
+  '#EEE8AA',
+  '#DA70D6',
+  '#FF4500',
+  '#FFA500',
+  '#6B8E23',
+  '#808000',
+  '#FDF5E6',
+  '#000080',
+  '#FFDEAD',
+  '#FFE4B5',
+  '#FFE4E1',
+  '#F5FFFA',
+  '#191970',
+  '#C71585',
+  '#48D1CC',
+  '#00FA9A',
+  '#7B68EE',
+  '#3CB371',
+  '#9370DB',
+  '#BA55D3',
+  '#BA55D3',
+  '#800000',
+  '#FF00FF',
+  '#B0C4DE',
+  '#778899',
+  '#778899',
+  '#87CEFA',
+  '#20B2AA',
+  '#FFA07A',
 
 ]
 
 function randomColor(colors) {
-     let randomindex = Math.floor(Math.random()*color.length);
+     let randomindex = Math.floor(Math.random()*colors.length);
      return   colors[randomindex];
 }
 
 
 
  button.addEventListener("click",()=>{
-   body.style.backgroundColor = randomColor(color);
-   body.firstElementChild.lastElementChild.children[0].innerText = randomColor(color)
+   html.style.backgroundColor = randomColor(colors);
+   body.firstElementChild.lastElementChild.children[0].innerText = randomColor(colors);
  })
