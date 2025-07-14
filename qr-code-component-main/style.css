@@ -1,5 +1,5 @@
 :root{
- --font-main:'outfit';
+ --font-main:'outfit', sans-serif;
 --white: hsl(0, 0%, 100%);
 --Slate-300: hsl(212, 45%, 89%);
 --Slate-500: hsl(216, 15%, 48%);
@@ -8,15 +8,15 @@
 }
 
 
-@media only screen and (min-width : 375px) and (max-width :1440px) {
-
-
-  *{
+ *,*::after,*::before{
   margin: 0;
   padding: 0;
+  font-family: var(--font-main);
 }
 
- body{
+body{
+  height: 100%;
+  width: 100%;
     background-color: var(--Slate-300);
     font-family: var(--font-main);
      color: var(--Slate-900);
@@ -25,6 +25,10 @@
  html{
   scroll-behavior: smooth;
  }
+
+
+@media only screen and (min-width : 375px) and (max-width: 1440px) {
+
   .qr-code{
     height:100vh ;
   display: flex;
@@ -70,4 +74,7 @@ a {
   text-decoration: none;
 }
 
+.attribution{
+  text-align: center;
+}
 }
