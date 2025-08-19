@@ -57,13 +57,14 @@ html,body{
      display: flex;
      flex-direction: column;
      justify-content: flex-end;
-     gap: 8px;
+     gap: 4px;
      width: 60%;
      font-family:Montserrat ExtraBold;
      font-size: 4rem;
      line-height: 0.80;
      padding-left: 7px;
-     min-height: 80vh;
+     min-height: fit-content;
+     transform: translatey(45%);
 }
 
 .footer{
@@ -74,4 +75,5 @@ html,body{
      font-family: Montserrat;
      font-size: 1.5rem;
      text-transform: capitalize;
+     transform: translateY(140px);
 }
