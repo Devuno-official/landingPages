@@ -24,9 +24,10 @@ html,body{
 .main{
      width : 100%;
      min-height: 100vh;
-     background-image: url(./assets/backiee-228917-landscape.jpg);
+     background-image: url(https://backiee.com/static/wallpapers/1000x563/328917.jpg);
      background-size: cover;
      background-repeat: no-repeat;
+     background-attachment: fixed;
 }
 
 .main .nav{
@@ -76,4 +77,9 @@ html,body{
      font-size: 1.5rem;
      text-transform: capitalize;
      transform: translateY(140px);
+}
+
+.nav a:hover{
+     text-decoration:underline;
+     color: #fff;;
 }
