@@ -1,0 +1,85 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+}
+
+html{
+     scroll-behavior: smooth;
+}
+
+html,body{
+     width: 100%;
+     height: 100%;
+}
+
+.main{
+     width: 100%;
+     min-height: 100vh;
+     background-color: black;
+     display: flex;
+}
+
+
+  .left{
+     width: 60%;
+     min-height: inherit;
+     background-color: red;
+     background-image: url(./asset/80139812-leaves-on-plain-white-wallpaper.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed; 
+}
+
+
+ .right{
+     width: 40%;
+     min-height: inherit;
+     background-color: black;
+     background-image: url(https://images.squarespace-cdn.com/content/v1/5315db84e4b02c6fff2d3279/1504025961571-VGXEDGT6Z1NXJSQ9ZSCP/downtown+michigan+senior+photoshoot+coffee+house+.jpg?format=1500w);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+} 
+
+ .nav{
+     font-family:Montserrat;
+     width: 100%;
+     padding: 20px 40px;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     display: inline-flex;
+}
+
+ .nav .nright{
+     width: 50%; 
+     display: inline-flex;
+     align-items: center;
+     justify-content: space-between;
+     text-transform: capitalize;
+}
+
+.nav .nleft{
+     width: calc(100% - 50%);
+     display: inline-flex;
+     align-items: center;
+     justify-content: space-between;
+     text-transform: capitalize;
+}
+
+ .nav .nright button {
+     background-color: transparent;
+     color: #fff;
+     border-radius: 5px;
+     border: 1px solid #fff;
+     outline: none;
+}
+
+.nav .nright a{
+     color: #fff;
+}
+
