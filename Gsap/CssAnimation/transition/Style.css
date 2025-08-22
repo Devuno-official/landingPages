@@ -1,0 +1,43 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+
+html{
+     font-smooth: always;
+     behavior: smooth;
+     scroll-behavior: smooth;
+}
+
+html,body{
+     width: 100%;
+     height: 100%;
+}
+
+
+
+.master { 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+}
+
+.box {
+     width: 100px;
+     height: 100px;
+     margin-top: 5px;
+      transition: transform .3s linear 2ms;
+      background: #111;
+      border-radius: 20px;
+}
+
+
+.box:hover,
+.box:focus {
+  transform: rotate(360deg) scale(1.1);
+  background-color: #ff0000;
+}
