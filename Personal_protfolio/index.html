@@ -12,6 +12,7 @@
 </head>
 <body>
      <div class="main">
+          <div class="ball"></div>
           <div class="nav">
                <div id="left">
                     <h5>MUhammad Yasir</h5>
@@ -32,5 +33,16 @@
                <p>Responsive web | JavaSript | Html5 | Css3 | CssAnimation</p>
           </div>
      </div>
-</body>
+     <script>
+
+window.document.addEventListener("mousemove", (event) => {
+    const x = event.clientX;
+    const y = event.clientY;
+     let ball = document.querySelector(".ball");
+           ball.style.left = `${x}px`;
+           ball.style.top =`${y}px`;  
+});
+
+     </script>
+</body>   
 </html>

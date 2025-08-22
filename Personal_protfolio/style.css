@@ -30,6 +30,16 @@ html,body{
      background-attachment: fixed;
 }
 
+.ball{
+     background-color: white;
+     border-radius: 50%;
+     width: 8px;
+     height: 8px;
+     position: absolute;
+     transition: all ease-in-out 10ms;
+     z-index: 9999;
+}
+
 .main .nav{
      width: 100%;
      display: inline-flex;
